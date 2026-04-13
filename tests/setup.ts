@@ -8,3 +8,5 @@ Object.defineProperty(globalThis, "URL", {
   },
   writable: true,
 });
+
+window.HTMLAnchorElement.prototype.click = vi.fn();

@@ -1,0 +1,32 @@
+{
+  "name": "soaci-video-downloader",
+  "version": "1.0.0",
+  "description": "Téléchargez les vidéos de soaci.mg en un clic",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write \"src/**/*.{ts,vue,css,html}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,vue,css,html}\"",
+    "prepare": "husky"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "@types/chrome": "^0.0.287",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "prettier": "^3.5.3",
+    "typescript": "^5.7.3",
+    "vite": "^6.3.2",
+    "vite-plugin-web-extension": "^4.3.1",
+    "vitest": "^3.1.1",
+    "jsdom": "^26.0.0",
+    "vue": "^3.5.13"
+  }
+}

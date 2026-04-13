@@ -9,6 +9,7 @@ describe("forceDownload", () => {
     btn = document.createElement("a");
     video = document.createElement("video");
     vi.restoreAllMocks();
+    vi.spyOn(console, "error").mockImplementation(() => {});
   });
 
   it("should do nothing if video has no src", async () => {
